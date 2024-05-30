@@ -100,4 +100,4 @@
 
 ---
 
-<sup className="rounded-full text-xs cursor-pointer [&>*]:!text-white h-4 w-4 px-1 bg-zinc-400 hover:bg-zinc-500 dark:bg-zinc-700 hover:dark:bg-zinc-600">[2](https://qarocks.ru/how-to-write-test-cases)</sup> <sup className="rounded-full text-xs cursor-pointer [&>*]:!text-white h-4 w-4 px-1 bg-zinc-400 hover:bg-zinc-500 dark:bg-zinc-700 hover:dark:bg-zinc-600">[3](https://sky.pro/media/kak-napisat-test-keys)</sup> 
+
