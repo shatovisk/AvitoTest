@@ -28,6 +28,7 @@ npm install puppeteer pixelmatch pngjs
 
 Создайте файл screenshot-tests-with-diffs.js и вставьте в него следующий код:
 
+javascript
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 const pixelmatch = require('pixelmatch');
