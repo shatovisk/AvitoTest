@@ -39,10 +39,10 @@ async function compareImages(img1Path, img2Path, diffPath) {
   // Массив тест-кейсов
   const testCases = [
     { name: 'TC_ECO_001', desc: 'Скриншот всей страницы', selector: null },
-    { name: 'TC_ECO_002', desc: 'Скриншот заголовка страницы', selector: '.desktop-wrapper-saQEa' }, // заменить на реальный селектор
-    { name: 'TC_ECO_003', desc: 'Скриншот изображения на странице', selector: '.desktop-frog-TwIs_' }, // заменить на реальный селектор
-    { name: 'TC_ECO_004', desc: 'Скриншот кнопки', selector: '.styles-item-hsxqs' }, // заменить на реальный селектор
-    { name: 'TC_ECO_005', desc: 'Скриншот секции страницы', selector: '.desktop-wrapper-jWOWh' } // заменить на реальный селектор
+    { name: 'TC_ECO_002', desc: 'Скриншот заголовка страницы', selector: '.desktop-wrapper-saQEa' }, 
+    { name: 'TC_ECO_003', desc: 'Скриншот изображения на странице', selector: '.desktop-frog-TwIs_' }, 
+    { name: 'TC_ECO_004', desc: 'Скриншот кнопки', selector: '.styles-item-hsxqs' }, 
+    { name: 'TC_ECO_005', desc: 'Скриншот секции страницы', selector: '.desktop-wrapper-jWOWh' } 
   ];
 
   // Основной цикл по тест-кейсам
