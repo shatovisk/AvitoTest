@@ -10,18 +10,17 @@
 
 Создайте новый рабочий каталог для вашего проекта и перейдите в него:
 
-sh
-mkdir screenshot-tests
-cd screenshot-tests
+
+1. mkdir screenshot-tests
+2. cd screenshot-tests
 
 
 ## Шаг 3: Инициализация проекта и установка зависимостей
 
 Инициализируйте проект и установите необходимые зависимости:
 
-sh
-npm init -y
-npm install puppeteer pixelmatch pngjs
+1. npm init -y
+2. npm install puppeteer pixelmatch pngjs
 
 
 ## Шаг 4: Создание рабочего скрипта
@@ -118,7 +117,6 @@ async function compareImages(img1Path, img2Path, diffPath) {
 
 Для выполнения скрипта и создания скриншотов выполните следующую команду:
 
-sh
 node screenshot-tests-with-diffs.js
 
 
