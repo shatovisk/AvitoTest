@@ -28,6 +28,10 @@
 Создайте файл screenshot-tests-with-diffs.js и вставьте в него следующий код:
 
 javascript
+
+
+
+
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 const pixelmatch = require('pixelmatch');
@@ -111,6 +115,7 @@ async function compareImages(img1Path, img2Path, diffPath) {
 
   await browser.close();
 })();
+
 
 
 ## Шаг 5: Запуск скрипта
